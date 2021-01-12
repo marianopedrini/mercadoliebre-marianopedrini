@@ -1,0 +1,459 @@
+/* Paleta de colores
+amarillo #eac926
+azul #03264c
+celeste #1259c3
+gris-oscuro #666
+gris-claro #ebebeb
+verde #39b54a */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebeb;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #eac926;
+  padding-bottom: 10px;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+nav {
+  display: none;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: white;
+}
+h5 {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.imagen {
+  width: 100%;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-y-barra {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.frase-header {
+  text-align: center;
+}
+
+.menu-hamburguesa {
+  text-align: center;
+}
+
+.precio-y-descuento {
+  display: flex;
+}
+.precio {
+  font-size: 18px;
+  width: 30%;
+}
+
+.descuento {
+  color: #39b54a;
+  font-size: 16px;
+  width: 70%;
+  margin: auto;
+}
+
+.descripcion {
+  font-size: 16px;
+  margin: 20px 0px 5px 0px;
+  color: #666;
+  display: none;
+}
+
+.articulo:hover .descripcion {
+  display: block;
+}
+
+.articulo:hover {
+  box-shadow: 0 0 10px rgb(100, 100, 100);
+}
+
+.articulo:hover .logo-envio i {
+  transform: rotate(360deg);
+}
+
+.logo-envio i {
+  transition-duration: 500ms;
+}
+
+.icono {
+  color: #1259c3;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icono-desplegable {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #1259c3;
+  border-radius: 10px;
+}
+
+.contenedor-logo-ml {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-ml {
+  width: 100%;
+  max-width: 400px;
+}
+
+.padding-costados {
+  padding: 0 25px 0 25px;
+}
+
+.copyright {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.banner img {
+  display: none;
+}
+.fuente-titulares {
+  font-size: 20px;
+  color: #666;
+  padding: 10px 0;
+}
+.logo-envio {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+.logo-envio i {
+  font-size: 15px;
+  color: #39b54a;
+}
+
+.articulo {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.detalle-articulo {
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+  position: relative;
+}
+
+.contenedor-imagen {
+  margin: auto;
+}
+
+.contenedor-barra-busqueda {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.contenedor-barra-busqueda button {
+  border: none;
+  background-color: white;
+}
+.contenedor-barra-busqueda button i {
+  text-align: end;
+  width: 100%;
+}
+#barra-de-busqueda {
+  width: 100%;
+  border: none;
+  margin-left: 10px;
+  padding: 10px 5px;
+  background-color: white;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.contenedor-footer {
+  text-align: center;
+}
+
+footer div section {
+  margin-bottom: 20px;
+}
+/*---------Register--------*/
+.register {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.register form label {
+  padding: 5px 0;
+}
+.titulos-register {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.register form input {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.perfil-usuario p {
+  margin-bottom: -12px;
+  font-size: 16px;
+}
+
+.comprador-vendedor label input {
+  text-align: right;
+}
+
+.comprador-vendedor {
+  display: flex;
+}
+
+main form div {
+  margin: 20px 0 10px 0;
+}
+
+.comprador-vendedor label {
+  font-size: 15px;
+  text-align: center;
+  width: 50%;
+}
+
+main input {
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.categorias-interes label {
+  font-size: 15px;
+}
+
+.register textarea {
+  width: 100%;
+  display: block;
+  padding: 5px;
+}
+
+.botones-registro {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botones-registro button {
+  width: 45%;
+  margin-top: 10px;
+  padding: 10px 5px;
+  border: none;
+  background-color: #1259c3;
+  color: white;
+  border-radius: 5px;
+}
+::placeholder {
+  font-weight: 300;
+  font-style: italic;
+  color: grey;
+}
+/*---------Login--------*/
+
+.filas-formularios input {
+  width: 100%;
+}
+div.filas-formularios label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.boton-login {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: #1259c3;
+  color: white;
+  border-radius: 5px;
+}
+
+.boton-login:hover {
+  background-color: #0022aa;
+}
+
+.titulos-login {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/*--------------------------------- MEDIA QUERIES ---------------------------------*/
+/*--------Celulares grandes--------*/
+@media (min-width: 361px) {
+  .contenedor-articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .fuente-titulares {
+    padding: 20px 0;
+  }
+  .descripcion {
+    display: block;
+  }
+  .articulo {
+    width: 43vw;
+  }
+  .banner img {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+/*--------Tablets--------*/
+@media (min-width: 769px) {
+  .articulo {
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+  }
+  nav {
+    display: block;
+  }
+  header {
+    padding: 0;
+  }
+  .menu-hamburguesa {
+    display: none;
+  }
+  .header-topbar {
+    display: flex;
+  }
+  .logo-y-barra {
+    padding-right: 0px;
+    width: 66%;
+  }
+  .frase-header {
+    margin: auto;
+    width: 33%;
+  }
+  .frase-header h2 {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .navbar-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-footer ul {
+    padding: 10px 20px 15px 20px;
+    display: flex;
+  }
+
+  .navbar-footer a {
+    font-size: 14px;
+    margin: 8px;
+  }
+  /*-------Formulario Registro y Login--------*/
+  .register {
+    max-width: 70%;
+  }
+  .login {
+    max-width: 70%;
+  }
+}
+
+/*--------Desktop--------*/
+@media (min-width: 1200px) {
+  .articulo {
+    width: 20vw;
+  }
+  .frase-header h2 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .navbar-footer {
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .navbar-footer a {
+    font-size: 16px;
+    margin: 8px 16px;
+  }
+
+  .contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+    margin-bottom: 20px;
+    padding: 0 25px;
+  }
+  footer div section i {
+    color: #1259c3;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  footer div section {
+    text-align: center;
+  }
+
+  footer h5 {
+    font-size: 15px;
+  }
+
+  footer p {
+    color: rgb(94, 93, 93);
+  }
+
+  .copyright {
+    margin-left: 30px;
+  }
+
+  footer div section:hover i {
+    color: #0022aa;
+  }
+}
