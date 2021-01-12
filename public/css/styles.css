@@ -76,6 +76,7 @@ ul {
 .precio-y-descuento {
   display: flex;
 }
+
 .precio {
   font-size: 18px;
   width: 30%;
@@ -86,6 +87,7 @@ ul {
   font-size: 16px;
   width: 70%;
   margin: auto;
+  text-align: center;
 }
 
 .descripcion {
