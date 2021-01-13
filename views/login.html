@@ -89,13 +89,15 @@
         <img src="/images/img-home-banner.jpg" alt="" />
       </div>
     </header>
+
     <main class="login">
       <form action="/" method="POST" class="formulario-login">
         <div class="filas-formularios">
-          <label class="titulos-login">Nombre de usuari@:</label>
+          <label class="titulos-login" for="name">Nombre de usuari@:</label>
           <input
             type="text"
-            name="nombre"
+            name="name"
+            id="name"
             required
             minlength="6"
             maxlength="18"
@@ -103,19 +105,23 @@
           />
         </div>
         <div class="filas-formularios">
-          <label class="titulos-login">Contraseña:</label>
+          <label class="titulos-login" for="password">Contraseña:</label>
           <input
             type="password"
-            name="contraseña"
+            name="password"
+            id="password"
             placeholder="**********"
             required
           />
         </div>
         <div>
-          <button type="submit" class="boton-login">Enviar</button>
+          <button type="submit" class="boton-login" value="Submit">
+            Enviar
+          </button>
         </div>
       </form>
     </main>
+
     <footer class="footer">
       <div class="contenedor-footer">
         <section class="centrado padding-costados">
