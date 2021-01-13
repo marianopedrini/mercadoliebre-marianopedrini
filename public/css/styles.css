@@ -41,6 +41,7 @@ h5 {
   margin-bottom: 0;
 }
 .imagen {
+  padding: 10px;
   width: 100%;
 }
 
@@ -61,8 +62,20 @@ ul {
 
 .logo-y-barra {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 20px;
+}
+
+.contenedor-logo-ml {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-ml {
+  width: 100%;
+  max-width: 400px;
 }
 
 .frase-header {
@@ -93,7 +106,9 @@ ul {
 }
 
 .descripcion {
-  font-size: 16px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
   margin: 20px 0px 5px 0px;
   color: #666;
   display: none;
@@ -129,17 +144,6 @@ ul {
   padding: 10px;
   background-color: #1259c3;
   border-radius: 10px;
-}
-
-.contenedor-logo-ml {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo-ml {
-  width: 100%;
-  max-width: 400px;
 }
 
 .padding-costados {
@@ -194,7 +198,8 @@ ul {
 }
 
 .contenedor-barra-busqueda {
-  width: 50%;
+  margin-top: 20px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,10 +387,22 @@ div.filas-formularios label {
   .header-topbar {
     display: flex;
   }
+  .contenedor-logo-ml {
+    margin-left: 30px;
+    width: 50%;
+  }
   .logo-y-barra {
+    flex-direction: row;
     padding-right: 0px;
     width: 66%;
   }
+  .contenedor-barra-busqueda {
+    margin-top: 00px;
+  }
+  .logo-ml {
+    width: 80%;
+  }
+
   .frase-header {
     margin: auto;
     width: 33%;
