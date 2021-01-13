@@ -146,7 +146,7 @@ ul {
   border-radius: 10px;
 }
 
-.padding-costados {
+.cajas-footer {
   padding: 0 25px 0 25px;
 }
 
@@ -236,6 +236,11 @@ ul {
 
 footer div section {
   margin-bottom: 20px;
+}
+.footer i {
+  color: #0022aa;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 /*---------Register--------*/
 .register {
@@ -421,7 +426,7 @@ div.filas-formularios label {
   }
 
   .navbar-footer a {
-    font-size: 14px;
+    font-size: 16px;
     margin: 8px;
   }
   /*-------Formulario Registro y Login--------*/
@@ -452,6 +457,10 @@ div.filas-formularios label {
     margin: 8px 16px;
   }
 
+  #barra-de-busqueda {
+    font-size: 13px;
+  }
+
   .contenedor-footer {
     display: flex;
     justify-content: space-around;
@@ -459,9 +468,13 @@ div.filas-formularios label {
     margin-bottom: 20px;
     padding: 0 25px;
   }
+  .cajas-footer {
+    width: 25%;
+  }
+
   footer div section i {
     color: #1259c3;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 5px;
   }
 
@@ -470,10 +483,12 @@ div.filas-formularios label {
   }
 
   footer h5 {
-    font-size: 15px;
+    font-size: 16px;
+    padding-bottom: 3px;
   }
 
   footer p {
+    font-size: 12px;
     color: rgb(94, 93, 93);
   }
 
