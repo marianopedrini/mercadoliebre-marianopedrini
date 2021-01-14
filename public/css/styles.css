@@ -351,6 +351,10 @@ div.filas-formularios label {
   margin-bottom: 8px;
 }
 
+.register form {
+  margin-bottom: 30px;
+}
+
 /*--------------------------------- MEDIA QUERIES ---------------------------------*/
 /*--------Celulares grandes--------*/
 @media (min-width: 361px) {
@@ -397,6 +401,7 @@ div.filas-formularios label {
     width: 50%;
   }
   .logo-y-barra {
+    margin-left: 50px;
     flex-direction: row;
     padding-right: 0px;
     width: 66%;
@@ -431,10 +436,10 @@ div.filas-formularios label {
   }
   /*-------Formulario Registro y Login--------*/
   .register {
-    max-width: 70%;
+    max-width: 60%;
   }
   .login {
-    max-width: 70%;
+    max-width: 60%;
   }
 }
 
