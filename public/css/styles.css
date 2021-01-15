@@ -306,6 +306,10 @@ main input {
   justify-content: space-around;
 }
 
+.boton-registro button:hover {
+  background-color: #0022aa;
+}
+
 .botones-registro button {
   width: 45%;
   margin-top: 10px;
@@ -314,6 +318,9 @@ main input {
   background-color: #1259c3;
   color: white;
   border-radius: 5px;
+}
+.botones-registro button:hover {
+  background-color: #0022aa;
 }
 ::placeholder {
   font-weight: 300;
